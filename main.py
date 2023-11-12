@@ -30,7 +30,7 @@ predictions = Dense(num_classes, activation='softmax')(x)
 model = Model(inputs=base_model.input, outputs=predictions)
 
 # Подготовьте видео и выполните предсказания
-video_path = './video.avi'
+video_path = './top.avi'
 
 cap = cv2.VideoCapture(video_path)
 
